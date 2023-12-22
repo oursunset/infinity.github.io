@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('.//image/luca-vFrhuBvI-hI-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}    
+ img {
+
+max-width: 100%;
+    
+height: auto;
+    
+}
+
+.countdown-title {
+  position: absolute;
+  top: 420px;
+  font-size: 24px;
+  color: white;
+}
+
+.countdown-item {
+  text-align: center;
+    margin: 0 10px;
+  }
+  
+  .countdown-box {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.8); 
+    background-color: rgba(1, 0, 0, 0.409); 
+    padding: 20px;
+    border-radius: 5px;
+    width: 75px;
+    height: 45px;
+  }
+  
+  .countdown-label {
+    margin-top: 5px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.8); 
+  }
+  .cd-words-wrapper b {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 0;
+  }
+  
+  .infinity-text {
+    position: absolute;
+    bottom: 420px;
+    font-size: 36px; 
+    color: white; 
+  }
+
+.countdown-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+@media (max-width: 1280px) {
+  .infinity-text {
+    position: absolute;
+    bottom: 500px;
+    font-size: 36px; 
+    color: white;
+  }
+  .countdown-title {
+    position: absolute;
+    top: 850px;
+    font-size: 24px;
+    color: white;
+  }
+}
